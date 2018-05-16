@@ -1,18 +1,18 @@
 body {
-  display:flex;
-  justify-content:center;
-  flex-direction:column;
+  display:-webkit-flex;
+  -webkit-justify-content:center;
+  -webkit-flex-direction:column;
   background:rgb(135, 96, 158);
   background:rgb(143, 106, 165);
 }
 
 div {
-  display:flex;
+  display:-webkit-flex;
   width:40rem;
   flex-wrap:wrap;
   justify-content:center;
-  align-self:center;
-  align-content:center;
+  -webkit-align-self:center;
+  -webkit-align-content:center;
   margin-top:0.5rem;
 }
 
@@ -69,8 +69,8 @@ li:nth-child(even) {
   background:rgb(199, 175, 224);
   /* border-radius:1rem; */
   height:4rem; 
-  display:flex;
-  align-items:center;
+  display:-webkit-flex;
+  -webkit-align-items:center;
 }
 
 li:nth-child(odd) {
@@ -79,8 +79,8 @@ li:nth-child(odd) {
   background:rgb(187, 155, 219);
   /* border-radius:1rem; */
   height:4rem;
-  display:flex;
-  align-items:center;
+  display:-webkit-flex;
+  -webkit-align-items:center;
 }
 
 li:nth-child(1) {
@@ -93,7 +93,7 @@ li:nth-child(10) {
 
 li>p:nth-child(2)  {
   position:absolute;
-  display:flex;
+  display:-webkit-flex;
   -webkit-transform:translate(2.2rem,-1rem);
   -moz-transform:translate(2.2rem,-1rem);
 }
